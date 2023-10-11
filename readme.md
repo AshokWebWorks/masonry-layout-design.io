@@ -24,10 +24,14 @@ The technologies and tools used in this project include:
 <li><b>HTML5:</b> Used for structuring the content of the webpage.</li>
 <li><b>CSS3:</b> Styled the layout, fonts, and colors.</li>
 <li><b>JavaScript:</b> Implemented interactivity and Masonry layout.</li>
-<li><b>[MasonryJs](https://masonry.desandro.com/):</b> A JavaScript library for creating the masonry grid layout.</li>
-<li><b>[ImagesLoadedJs](https://imagesloaded.desandro.com/):</b> A JavaScript library to ensure all images are loaded before arranging the grid.</li>
+<li><b>MasonryJs:</b> A JavaScript library for creating the masonry grid layout.</li>
+<li><b>ImagesLoadedJs:</b> A JavaScript library to ensure all images are loaded before arranging the grid.</li>
 
+### Download
+ 1. [MasonryJs](https://masonry.desandro.com/):
+ 2. [ImagesLoadedJs](https://imagesloaded.desandro.com/)
 
+ 
 ## Features
 
 - Responsive grid layout for showcasing images and visual content.
