@@ -1,0 +1,140 @@
+/* Reset default margin, padding, and box model for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the base font size for the entire HTML document */
+  html {
+    font-size: 62.5%; /* 1rem = 10px, making it easier to work with font sizes */
+  }
+  @media screen and (max-width: 768px) {
+    html{
+        font-size: 50%;
+    }
+  }
+  /* Style for the overall page layout and typography */
+  body {
+    font-size: 10px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the page covers the full viewport height */
+    width: 100vw; /* Ensure the page covers the full viewport width */
+    background: #080b16;
+    color: #eeeeee;
+    overflow-x: hidden;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+   /* Style for the header section */
+   header {
+    width: 100%;
+    background: #161a29;
+    height: 80px;
+  }
+  
+  /* Style for elements inside the header */
+  header div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #ffffff;
+  }
+  
+  header h3 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+  }
+  
+  header p {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    color: #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+  }
+  
+  
+  /* Style for the main content area */
+  main {
+    flex-grow: 1; /* Allows the main content to grow to fill available space */
+    padding-bottom: 40px;
+  }
+  .tech-stack{
+    background: #161a2927;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: 1.6rem;
+    gap: 20px;
+  }
+  .tech-stack ul{
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+  }
+  .tech-stack ul li{
+    font-size: 1.4rem;
+    text-align: justify;
+    list-style:decimal;
+  }
+  
+ 
+  /* Styles for the grid layout */
+  .grid {
+    margin: 0 auto;
+  }
+  
+  .grid::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .grid-item {
+    position: relative;
+    width: 200px;
+    float: left;
+    padding: 4px;
+    border-radius: 10px;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Style for the footer section */
+  footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    position: relative;
+    background: #161a29;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Style for copyright information and links in the footer */
+  footer .copyright {
+    height: 20px;
+  }
+  
+  footer a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #eeeeee;
+    letter-spacing: 0.4px;
+  }
+  
