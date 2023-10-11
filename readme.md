@@ -7,15 +7,26 @@ A responsive Masonry Layout inspired by Pinterest's grid-style design for showca
 ## Table of Contents
 
 - [Demo](#demo)
+- [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Tech Stack](#tech-stack)
 - [License](#license)
 
 ## Demo
 
-[View Demo](link-to-your-live-demo)
+[View Live Demo](https://ashokwebworks.github.io/masonry-layout-design.io/)
+
+## Tech Stack
+
+The technologies and tools used in this project include:
+
+<li><b>HTML5:</b> Used for structuring the content of the webpage.</li>
+<li><b>CSS3:</b> Styled the layout, fonts, and colors.</li>
+<li><b>JavaScript:</b> Implemented interactivity and Masonry layout.</li>
+<li><b>[MasonryJs:](https://masonry.desandro.com/)</b> A JavaScript library for creating the masonry grid layout.</li>
+<li><b>[ImagesLoadedJs:](https://imagesloaded.desandro.com/)</b> A JavaScript library to ensure all images are loaded before arranging the grid.</li>
+
 
 ## Features
 
@@ -49,16 +60,6 @@ To use and integrate this Masonry Layout into your own project, follow these gui
 4. Customize your content and images within the grid as per your requirements.
 
 Feel free to refer to the code and examples provided in this repository for guidance.
-
-## Tech Stack
-
-The technologies and tools used in this project include:
-
-<li><b>HTML5:</b> Used for structuring the content of the webpage.</li>
-<li><b>CSS3:</b> Styled the layout, fonts, and colors.</li>
-<li><b>JavaScript:</b> Implemented interactivity and Masonry layout.</li>
-<li><b>MasonryJs:</b> A JavaScript library for creating the masonry grid layout.</li>
-<li><b>ImagesLoadedJs:</b> A JavaScript library to ensure all images are loaded before arranging the grid.</li>
 
 
 ## License
